@@ -2,8 +2,8 @@
 pipeline {
     agent any
     environment {
-        AWS_ACCESS_KEY_ID = "AKITWBJ2JPIWIOYYWMF"
-        AWS_SECRET_ACCESS_KEY = "UUFk2NvRX5S9Fstk75KwWNsbyce1VlLn8sP57xiV"
+        AWS_ACCESS_KEY_ID = "AKIATWBJ2JPIRYE55QXC"
+        AWS_SECRET_ACCESS_KEY = "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"
         AWS_DEFAULT_REGION = "eu-west-3"
     }
     stages {
