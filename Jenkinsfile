@@ -4,7 +4,7 @@ pipeline {
     environment {
         AWS_ACCESS_KEY_ID = "aws-access-key-id"
         AWS_SECRET_ACCESS_KEY = "aws-secret-access-key"
-        AWS_DEFAULT_REGION = "eu-west-3"
+        AWS_DEFAULT_REGION = "us-east-1"
     }
     stages {
         stage("Create an EKS Cluster") {
