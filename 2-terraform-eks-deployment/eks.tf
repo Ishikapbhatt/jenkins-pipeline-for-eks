@@ -1,5 +1,5 @@
 module "eks" {
-    source  = "jenkins-pipeline-fir-eks/2-terraform-els-deployment"
+    source  = "./jenkins-pipeline-fir-eks/2-terraform-els-deployment"
     version = "~> 19.0"
     cluster_name = "my-eks-cluster"
     cluster_version = "1.24"
